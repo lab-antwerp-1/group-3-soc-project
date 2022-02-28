@@ -37,7 +37,7 @@
 
 - [ ] _use `#header` to create style._
 
-- This will be developed on the branch `title`.
+- This will be developed on the branch `0-title`.
 
 ---
 
@@ -55,6 +55,8 @@
 `type: CSS`
 
 - [ ] _use the `id = introduction` to style the text._
+
+- This will be developed on the branch `1-description`.
 
 ---
 
@@ -103,6 +105,8 @@
 - [ ] _use `text-decoration: line-through` for the elements in the `done` list._
 - [ ] _use `text-align: center` to center all content._
 
+- This will be developed on the branch `3-display-list`.
+
 ---
 
 4 - Removing items
@@ -149,6 +153,8 @@
 - [ ] _use `data` to store a new list with all elements marked as done._
 - [ ] _use `addEventListener` and `click` to create user's event._
 
+- This will be developed on the branch `5-done-items`.
+
 ---
 
 6 - Reset all lists
@@ -167,3 +173,4 @@
 
 - [ ] _use `id = refresh-button` to style it._
 
+- This will be developed on the branch `6-reset`.
