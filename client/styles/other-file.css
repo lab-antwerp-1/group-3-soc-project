@@ -1,5 +1,12 @@
 .header {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.introduction {
+  font-size: 30px;
+  font-weight: 500;
   text-align: center;
 }
