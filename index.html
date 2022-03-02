@@ -16,9 +16,37 @@
       <h1 class="header">To do</h1>
       <p class="introduction">Get ready for your day<br>and keep track of your activities.</p>
     </section>
-  </div>
 
-  <script type="module" src="./client/src/init/index.js"></script>
+    <div class="container">
+      <section class="form">
+        <form action="" class="add-form" id="add-form">
+          <input type="text" placeholder="Add an activity" id="item" class="item">
+          <input type="button" value="Add" id="add-button" class="add-button">
+        </form>
+      </section>
+
+      <section class="display-lists">
+        <div class="pending-items" id="pending-items">
+          <h2>Pending</h3>
+            <ul id="pending-items-ul">
+
+            </ul>
+        </div>
+        <div class="done-items" id="done-items">
+          <h2>Done</h3>
+            <ul id="done-items-ul">
+
+            </ul>
+        </div>
+
+      </section>
+      <div class="clear-button-div">
+        <a href="https://lab-antwerp-1.github.io/group-3-soc-project/">
+          <button class="clear-button" id="clear-button">Clear all</button>
+        </a>
+      </div>
+    </div>
+    <script type="module" src="./client/src/init/index.js"></script>
 </body>
 
 </html>

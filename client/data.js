@@ -1,3 +1,5 @@
+/* eslint-disable prettier/prettier */
 export const data = {
-  greeting: 'hello',
+  pending: [],
+  done: [],
 };
