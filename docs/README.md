@@ -17,11 +17,15 @@
 - public
 - src
   - components
+    - [render.js](#clientsrccomponentsrenderjs)
   - handlers
+    - [handler.js](#clientsrchandlershandlerjs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
+    - [listener.js](#clientsrclistenerslistenerjs)
   - logic
+    - [logic.js](#clientsrclogiclogicjs)
 - styles
 - [data.js](#clientdatajs)
 
@@ -39,9 +43,28 @@
 
 ## /components
 
+<details><summary><a href="../../client/src/components/render.js" id="clientsrccomponentsrenderjs">../client/src/components/render.js</a></summary>
+
+</details>
+
 ---
 
 ## /handlers
+
+<details><summary><a href="../../client/src/handlers/handler.js" id="clientsrchandlershandlerjs">../client/src/handlers/handler.js</a></summary>
+
+<a name="addElementHandler"></a>
+
+## addElementHandler
+
+This is the very first interaction of the user.
+It's ran every time the user adds a new item to the list.
+
+| Param | Type               | Description                      |
+| ----- | ------------------ | -------------------------------- |
+| event | <code>Event</code> | Click event from the add button. |
+
+</details>
 
 ---
 
@@ -55,9 +78,17 @@
 
 ## /listeners
 
+<details><summary><a href="../../client/src/listeners/listener.js" id="clientsrclistenerslistenerjs">../client/src/listeners/listener.js</a></summary>
+
+</details>
+
 ---
 
 ## /logic
+
+<details><summary><a href="../../client/src/logic/logic.js" id="clientsrclogiclogicjs">../client/src/logic/logic.js</a></summary>
+
+</details>
 
 ---
 

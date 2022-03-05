@@ -38,3 +38,11 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.liEl :first-child {
+  margin-left: 10px;
+}
+
+.liEl-done {
+  text-decoration: line-through;
+}
