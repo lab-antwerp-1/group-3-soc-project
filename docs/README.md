@@ -17,9 +17,14 @@
 - public
 - src
   - components
-    - [render.js](#clientsrccomponentsrenderjs)
+    - [render-done-list.js](#clientsrccomponentsrender-done-listjs)
+    - [render-list.js](#clientsrccomponentsrender-listjs)
   - handlers
-    - [handler.js](#clientsrchandlershandlerjs)
+    - [add.js](#clientsrchandlersaddjs)
+    - [clear-all.js](#clientsrchandlersclear-alljs)
+    - [delete.js](#clientsrchandlersdeletejs)
+    - [done.js](#clientsrchandlersdonejs)
+    - [not-done.js](#clientsrchandlersnot-donejs)
   - init
     - [index.js](#clientsrcinitindexjs)
   - listeners
@@ -43,7 +48,37 @@
 
 ## /components
 
-<details><summary><a href="../../client/src/components/render.js" id="clientsrccomponentsrenderjs">../client/src/components/render.js</a></summary>
+<details><summary><a href="../../client/src/components/render-done-list.js" id="clientsrccomponentsrender-done-listjs">../client/src/components/render-done-list.js</a></summary>
+
+</details>
+
+<details><summary><a href="../../client/src/components/render-list.js" id="clientsrccomponentsrender-listjs">../client/src/components/render-list.js</a></summary>
+
+<a name="renderList"></a>
+
+## renderList ⇒ <code>Object</code>
+
+This function takes the elements stored in an array of strings and creates an un-ordered list where each list element is one of the elements in the given array.
+
+**Returns**: <code>Object</code> - ulEl - DOM <ul> element containing all the listed items.
+
+| Param           | Type               | Description                                                |
+| --------------- | ------------------ | ---------------------------------------------------------- |
+| arrayOfElements | <code>Array</code> | Array whose elements will be listed in an un-ordered list. |
+
+**Example**
+
+```js
+elements = [element1, element2, element3, element4, element5]
+
+<ul>
+ <li>element1</>
+ <li>element2</>
+ <li>element3</>
+ <li>element4</>
+ <li>element5</>
+</ul>
+```
 
 </details>
 
@@ -51,18 +86,39 @@
 
 ## /handlers
 
-<details><summary><a href="../../client/src/handlers/handler.js" id="clientsrchandlershandlerjs">../client/src/handlers/handler.js</a></summary>
+<details><summary><a href="../../client/src/handlers/add.js" id="clientsrchandlersaddjs">../client/src/handlers/add.js</a></summary>
 
-<a name="addElementHandler"></a>
+</details>
 
-## addElementHandler
+<details><summary><a href="../../client/src/handlers/clear-all.js" id="clientsrchandlersclear-alljs">../client/src/handlers/clear-all.js</a></summary>
 
-This is the very first interaction of the user.
-It's ran every time the user adds a new item to the list.
+</details>
 
-| Param | Type               | Description                      |
-| ----- | ------------------ | -------------------------------- |
-| event | <code>Event</code> | Click event from the add button. |
+<details><summary><a href="../../client/src/handlers/delete.js" id="clientsrchandlersdeletejs">../client/src/handlers/delete.js</a></summary>
+
+<a name="deleteElementHandler"></a>
+
+## deleteElementHandler
+
+| Param | Description                       |
+| ----- | --------------------------------- |
+| event | Click event of the Delete button. |
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/done.js" id="clientsrchandlersdonejs">../client/src/handlers/done.js</a></summary>
+
+<a name="doneElementHandler"></a>
+
+## doneElementHandler
+
+</details>
+
+<details><summary><a href="../../client/src/handlers/not-done.js" id="clientsrchandlersnot-donejs">../client/src/handlers/not-done.js</a></summary>
+
+<a name="notDoneElementHandler"></a>
+
+## notDoneElementHandler
 
 </details>
 
